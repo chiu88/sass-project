@@ -13,5 +13,5 @@ $mixin background-image ($image-path) {
 }
 
 .hero-container {
-    @include background-image:
+    @include background-image('insertimghere')
 }
