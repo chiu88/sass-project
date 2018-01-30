@@ -1,2 +1,7 @@
 header {
   height: 100px; }
+
+.hero-container {
+  background: url("../img/adi-constantin-65004.jpg");
+  background-size: cover;
+  background-position: 50% 50%; }
