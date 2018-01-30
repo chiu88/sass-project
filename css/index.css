@@ -1,5 +1,22 @@
 header {
-  height: 100px; }
+  height: 120px;
+  width: 100%;
+  background-color: #2e1114; }
+  header .header-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    header .header-container .logo {
+      background-size: cover;
+      background-position: center;
+      padding-left: 40px; }
+    header .header-container a {
+      font-size: 40px;
+      padding-right: 60px; }
+
 
 .hero-container {
   background: url("../img/adi-constantin-65004.jpg");
