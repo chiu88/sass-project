@@ -1,0 +1,17 @@
+.wrapper {
+
+}
+header{
+    height:100px;
+}
+
+
+$mixin background-image ($image-path) {
+    background: url($image-path);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.hero-container {
+    @include background-image:
+}
