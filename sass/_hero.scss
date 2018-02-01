@@ -1,17 +1,20 @@
-.wrapper {
 
-}
 header{
     height:100px;
 }
 
+@mixin background-image($image-path) {
 
-$mixin background-image ($image-path) {
-    background: url($image-path);
+
+    background:url('../img/adi-constantin-65004.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
+
+
+
+
 .hero-container {
-    @include background-image:
+    @include background-image('../img/adi-constantin-65004.jpg');
 }
