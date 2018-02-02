@@ -32,16 +32,20 @@ header {
 header {
   height: 100px; }
 
+.hero {
+  height: 50vh; }
+
 .hero-container {
   background: url("../img/adi-constantin-65004.jpg");
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  height: 100%; }
 
 .card {
   background-color: #83677B; }
 
 main {
-  background-color: #ADADAD;
+  background-color: #83677b;
   height: 100%;
   width: 100%;
   border: 1px solid black; }
