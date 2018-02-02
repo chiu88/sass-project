@@ -82,80 +82,98 @@ main {
       main .main-container .profile-container .profile-4 {
         background-image: url("../img/lakshmi.jpg"); }
 
+.blog-container {
+  height: 100%;
+  padding-top: 70px;
+  margin: 0 auto;
+  text-align: left;
+  width: 60%; }
+  .blog-container h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px; }
+  .blog-container .paragraph-container {
+    font-size: 23px;
+    padding-top: 20px; }
+
 footer {
   height: 150px;
   background: #ADADAD;
   padding: 80px 0; }
-
-.icons {
-  margin: 20px 10px;
-  text-align: center; }
-
-.socialbtn {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  border: 2px solid #ddd;
-  /* add border to the buttons */
-  box-shadow: 0 3px 3px #999;
-  padding: 0px;
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  font-size: 25px;
-  font-weight: normal;
-  line-height: 2em;
-  border-radius: 27px;
-  float: right;
-  margin: 10px; }
-
-.facebookBtn {
-  background: #4060A5;
-  content: "\f09a"; }
-
-.facebookBtn:before {
-  font-family: "FontAwesome";
-  content: "\f09a"; }
-
-.facebookBtn:hover {
-  color: #4060A5;
-  background: #fff;
-  border-color: #4060A5; }
-
-.twitterBtn {
-  background: #00ABE3; }
-
-.twitterBtn:before {
-  font-family: "FontAwesome";
-  content: "\f099"; }
-
-.twitterBtn:hover {
-  color: #00ABE3;
-  background: #fff;
-  border-color: #00ABE3; }
-
-.linkedinBtn {
-  background: #0094BC; }
-
-.linkedinBtn:before {
-  font-family: "FontAwesome";
-  content: "\f0e1"; }
-
-.linkedinBtn:hover {
-  color: #0094BC;
-  background: #fff;
-  border-color: #0094BC; }
-
-.fa-instagram {
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
-
-.fa-instagram:before {
-  font-family: "FontAwesome"; }
-
-.fa-instagram:hover {
-  color: #0094BC;
-  background: #fff;
-  border-color: #0094BC; }
+  footer .icons {
+    margin: 20px 10px;
+    text-align: center; }
+    footer .icons .socialbtn {
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      border: 2px solid #ddd;
+      /* add border to the buttons */
+      box-shadow: 0 3px 3px #999;
+      padding: 0px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      float: right;
+      margin: 10px; }
+    footer .icons .facebookBtn {
+      background: #4060A5;
+      content: "\f09a"; }
+    footer .icons .facebookBtn:before {
+      /* use :before to add the relevant icons */
+      font-family: "FontAwesome";
+      content: "\f09a";
+      /* add facebook icon */ }
+    footer .icons .facebookBtn:hover {
+      color: #4060A5;
+      background: #fff;
+      border-color: #4060A5;
+      /* change the border color on mouse hover */ }
+    footer .icons .twitterBtn {
+      background: #00ABE3; }
+    footer .icons .twitterBtn:before {
+      font-family: "FontAwesome";
+      content: "\f099";
+      /* add twitter icon */
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      border: 2px solid #ddd;
+      /* add border to the buttons */
+      box-shadow: 0 3px 3px #999;
+      padding: 0px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      float: right;
+      margin: 10px; }
+    footer .icons .linkedinBtn {
+      background: #0094BC; }
+    footer .icons .linkedinBtn:before {
+      font-family: "FontAwesome";
+      content: "\f0e1";
+      /* add linkedin icon */ }
+    footer .icons .linkedinBtn:hover {
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC; }
+    footer .icons .fa-instagram {
+      background: #d6249f;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+    footer .icons .fa-instagram:before {
+      font-family: "FontAwesome";
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3; }
