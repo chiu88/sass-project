@@ -5,33 +5,14 @@ height:150px;
 background:#ADADAD;
 padding: 80px 0;
 
-}
+
 
 .icons{
   margin: 20px 10px;
- text-align: center;
+  text-align: center;
 
-footer{
-
-height:150px;
-
-background:#ADADAD;
-
-padding: 80px 0;
-
-}
-
-.icons{
-
-margin: 20px 10px;
-
-text-align: center;
-
-
-}
-
-.socialbtn{
-   display: inline-block;
+ .socialbtn{
+    display: inline-block;
     position: relative;
     cursor:pointer;
     width: 50px;
@@ -46,205 +27,73 @@ text-align: center;
     font-weight: normal;
     line-height: 2em;
     border-radius: 27px;
-    /* -moz-border-radius:27px;
-    -webkit-border-radius:27px; */
     float: right;
     margin: 10px;
+  }
 
-}
-.facebookBtn{
-    background: #4060A5;
-   content: "\f09a";
+  .facebookBtn{
+      background: #4060A5;
+      content: "\f09a";
 
-}
-
-.facebookBtn:before{ /* use :before to add the relevant icons */
-    font-family: "FontAwesome";
-    content: "\f09a"; /* add facebook icon */
-}
-
-.facebookBtn:hover{
-    color: #4060A5;
-    background: #fff;
-    border-color: #4060A5; /* change the border color on mouse hover */
-}
-
-/* twitter button class*/
-.twitterBtn{
-    background: #00ABE3;
-}
-
-.twitterBtn:before{
+    }
+    .facebookBtn:before{ /* use :before to add the relevant icons */
       font-family: "FontAwesome";
-      content: "\f099"; /* add twitter icon */
-
-
-display: inline-block;
-
-position: relative;
-
-cursor:pointer;
-
-width: 50px;
-
-height: 50px;
-
-border:2px solid #ddd; /* add border to the buttons */
-
-box-shadow: 0 3px 3px #999;
-
-padding: 0px;
-
-text-decoration: none;
-
-text-align: center;
-
-color: #fff;
-
-font-size: 25px;
-
-font-weight: normal;
-
-line-height: 2em;
-
-border-radius: 27px;
-
-float: right;
-
-margin: 10px;
-
-}
-
-.facebookBtn{
-
-background: #4060A5;
-
-content: "\f09a";
-
-}
-
-.facebookBtn:before{
-
-font-family: "FontAwesome";
-
-content: "\f09a";
-
-}
-
-.facebookBtn:hover{
-
-color: #4060A5;
-
-background: #fff;
-
-border-color: #4060A5;
-
-}
-
-
-
-.twitterBtn{
-
-background: #00ABE3;
-
-}
-
-.twitterBtn:before{
-
-font-family: "FontAwesome";
-
-content: "\f099";
-
-
-}
-
-.twitterBtn:hover{
-      color: #00ABE3;
-      background: #fff;
-      border-color: #00ABE3;
-}
-.linkedinBtn{
-    background: #0094BC;
-}
-
-.linkedinBtn:before{
-      font-family: "FontAwesome";
-      content: "\f0e1"; /* add linkedin icon */
-}
-
-.linkedinBtn:hover{
-      color: #0094BC;
-      background: #fff;
-      border-color: #0094BC;
-}
-.fa-instagram{
-    background: #d6249f;
-     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
-
-.fa-instagram:before{
-      font-family: "FontAwesome";
-
-
-color: #00ABE3;
-
-background: #fff;
-
-border-color: #00ABE3;
-
-}
-
-.linkedinBtn{
-
-background: #0094BC;
-
-}
-
-.linkedinBtn:before{
-
-font-family: "FontAwesome";
-
-content: "\f0e1";
-
-}
-
-.linkedinBtn:hover{
-
-color: #0094BC;
-
-background: #fff;
-
-border-color: #0094BC;
-
-}
-
-.fa-instagram{
-
-background: #d6249f;
-
-background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-
-}
-
-.fa-instagram:before{
-
-font-family: "FontAwesome";
-
-
-}
-
-.fa-instagram:hover{
-
-      color: #0094BC;
-      background: #fff;
-      border-color: #0094BC;
+      content: "\f09a"; /* add facebook icon */
     }
 
+    .facebookBtn:hover{
+      color: #4060A5;
+      background: #fff;
+      border-color: #4060A5; /* change the border color on mouse hover */
+    }
 
-color: #0094BC;
+  .twitterBtn{
+    background: #00ABE3;
+  }
 
-background: #fff;
+  .twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      display: inline-block;
+      position: relative;
+      cursor:pointer;
+      width: 50px;
+      height: 50px;
+      border:2px solid #ddd; /* add border to the buttons */
+      box-shadow: 0 3px 3px #999;
+      padding: 0px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      float: right;
+      margin: 10px;
+      }
+      .linkedinBtn{
+      background: #0094BC;
+     }
+     .linkedinBtn:before{
+     font-family: "FontAwesome";
+     content: "\f0e1"; /* add linkedin icon */
+     }
+     .linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+      }
+    .fa-instagram{
+     background: #d6249f;
+     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+     }
 
-border-color: #0094BC;
-
-}
+    .fa-instagram:before{
+     font-family: "FontAwesome";
+     color: #00ABE3;
+     background: #fff;
+     border-color: #00ABE3;
+     }
+   }
+  }
