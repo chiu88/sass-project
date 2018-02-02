@@ -2,7 +2,7 @@ main {
   background-color: $accent-color;
   height: 100%;
   width: 100%;
-  margin-top: 10px;
+  border: 1px solid black;
 
   .main-container {
     height: 100%;
@@ -24,7 +24,11 @@ main {
       .profile {
         height: 200px;
         width: 200px;
-        background-color: red;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid black;
+        box-shadow: 5px 10px #888888;
 
       }
 
@@ -33,6 +37,22 @@ main {
         text-align: center;
         padding-left: 40px;
         padding-right: 40px;
+      }
+
+      .profile-1 {
+        background-image: url('../img/shawn.jpg');
+      }
+
+      .profile-2 {
+        background-image: url('../img/aku.jpg');
+      }
+
+      .profile-3 {
+        background-image: url('../img/gurjeet.jpg');
+      }
+
+      .profile-4 {
+        background-image: url('../img/lakshmi.jpg');
       }
 
       }
