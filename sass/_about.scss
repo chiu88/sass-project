@@ -1,0 +1,60 @@
+main {
+  background-color: $secondary-color;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+
+  .main-container {
+    height: 100%;
+    width: 100%;
+
+    .profile-container1 {
+      padding-top: 60px;
+    }
+
+    .profile-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 40px;
+
+
+
+      .profile {
+        height: 200px;
+        width: 200px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid black;
+        box-shadow: 5px 10px #888888;
+
+      }
+
+      .description-container {
+        width: 600px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .profile-1 {
+        background-image: url('../img/shawn.jpg');
+      }
+
+      .profile-2 {
+        background-image: url('../img/aku.jpg');
+      }
+
+      .profile-3 {
+        background-image: url('../img/gurjeet.jpg');
+      }
+
+      .profile-4 {
+        background-image: url('../img/lakshmi.jpg');
+      }
+
+      }
+  }
+}
