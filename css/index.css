@@ -1,3 +1,15 @@
+h1, h2, h3, h4 {
+  font-family: "Quicksand", sans-serif; }
+
+h1 {
+  font-weight: bold; }
+
+a {
+  font-family: "Quicksand", sans-serif; }
+
+p {
+  font-family: "Ebgaramond", serif; }
+
 header {
   height: 120px;
   width: 100%;
@@ -15,16 +27,19 @@ header {
       padding-left: 40px; }
     header .header-container a {
       font-size: 40px;
-      padding-right: 60px;
-      font-family: "Quicksand", sans-serif; }
+      padding-right: 60px; }
 
 header {
   height: 100px; }
 
+.hero {
+  height: 50vh; }
+
 .hero-container {
   background: url("../img/adi-constantin-65004.jpg");
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  height: 100%; }
 
 .card {
   background-color: #83677B; }

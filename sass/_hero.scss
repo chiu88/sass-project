@@ -11,10 +11,13 @@ header{
     background-position: 50% 50%;
 }
 
-
+.hero {
+    height: 50vh;
+}
 
 
 
 .hero-container {
     @include background-image('../img/adi-constantin-65004.jpg');
+    height: 100%;
 }
