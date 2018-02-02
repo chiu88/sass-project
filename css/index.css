@@ -7,7 +7,7 @@ header {
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; }
     header .header-container .logo {
       background-size: cover;
@@ -25,3 +25,44 @@ header {
   background: url("../img/adi-constantin-65004.jpg");
   background-size: cover;
   background-position: 50% 50%; }
+
+.card {
+  background-color: #83677B; }
+
+main {
+  background-color: #83677b;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black; }
+  main .main-container {
+    height: 100%;
+    width: 100%; }
+    main .main-container .profile-container1 {
+      padding-top: 60px; }
+    main .main-container .profile-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 40px; }
+      main .main-container .profile-container .profile {
+        height: 200px;
+        width: 200px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid black;
+        box-shadow: 5px 10px #888888; }
+      main .main-container .profile-container .description-container {
+        width: 600px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px; }
+      main .main-container .profile-container .profile-1 {
+        background-image: url("../img/shawn.jpg"); }
+      main .main-container .profile-container .profile-2 {
+        background-image: url("../img/aku.jpg"); }
+      main .main-container .profile-container .profile-3 {
+        background-image: url("../img/gurjeet.jpg"); }
+      main .main-container .profile-container .profile-4 {
+        background-image: url("../img/lakshmi.jpg"); }
