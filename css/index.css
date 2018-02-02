@@ -82,6 +82,20 @@ main {
       main .main-container .profile-container .profile-4 {
         background-image: url("../img/lakshmi.jpg"); }
 
+.blog-container {
+  height: 100%;
+  padding-top: 70px;
+  margin: 0 auto;
+  text-align: left;
+  width: 60%; }
+  .blog-container h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px; }
+  .blog-container .paragraph-container {
+    font-size: 23px;
+    padding-top: 20px; }
+
 footer {
   height: 150px;
   background: #ADADAD;
