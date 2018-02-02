@@ -1,3 +1,12 @@
+h1, h2, h3, h4 {
+  font-family: "Quicksand", sans-serif; }
+
+a {
+  font-family: "Quicksand", sans-serif; }
+
+p {
+  font-family: "Ebgaramond", serif; }
+
 header {
   height: 120px;
   width: 100%;
@@ -15,8 +24,7 @@ header {
       padding-left: 40px; }
     header .header-container a {
       font-size: 40px;
-      padding-right: 60px;
-      font-family: "Quicksand", sans-serif; }
+      padding-right: 60px; }
 
 header {
   height: 100px; }
@@ -48,8 +56,9 @@ main {
       main .main-container .profile-container .profile {
         height: 200px;
         width: 200px;
-        background-color: red;
-        padding-top: 100px; }
+        background-color: red; }
       main .main-container .profile-container .description-container {
         width: 600px;
-        text-align: center; }
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px; }
