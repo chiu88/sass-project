@@ -15,9 +15,23 @@ header{
     height: 50vh;
 }
 
-
-
 .hero-container {
     @include background-image('../img/adi-constantin-65004.jpg');
     height: 100%;
+}
+.text-container{
+    padding:40px;
+    text-align: center;
+    color:black;
+    width: 700px;
+    margin: 0 auto;
+
+}
+ h1{
+  font-family: "$primary-font";
+  font-size: 40px;
+   margin-bottom: 20px;
+  color:$primary-color;
+  text-align:left;
+  text-transform: uppercase;
 }

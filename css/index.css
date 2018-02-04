@@ -42,12 +42,29 @@ header {
   background-position: 50% 50%;
   height: 100%; }
 
+.text-container {
+  padding: 40px;
+  text-align: center;
+  color: black;
+  width: 700px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: "$primary-font";
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #2e1114;
+  text-align: left;
+  text-transform: uppercase; }
+
+.card-container {
+  height: 100%;
+  width: 100%;
+  margin: o auto; }
+
 body {
   background: #f1f1f1;
   margin: 2rem; }
-
-.blog-card1 {
-  margin-top: 20px; }
 
 .blog-card {
   transition: height 0.3s ease;
@@ -55,6 +72,7 @@ body {
   background: #fff;
   border-radius: 3px;
   box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
   margin: 0 auto 1.6%;
   overflow: hidden;
   position: relative;
@@ -122,7 +140,7 @@ body {
       color: inherit;
       border-bottom: 1px dotted; }
       .blog-card .details a:hover {
-        color: #75D13B; }
+        color: #83677b; }
   .blog-card .description {
     padding: 10px;
     box-sizing: border-box;
@@ -145,7 +163,7 @@ body {
       padding-top: 20px; }
       .blog-card .description p:after {
         content: "";
-        background: #75D13B;
+        background: #83677b;
         height: 6px;
         width: 40px;
         /*POSITION*/
@@ -153,7 +171,7 @@ body {
         top: 6px;
         left: 0; }
     .blog-card .description a {
-      color: #75D13B;
+      color: #83677b;
       margin-bottom: 10px;
       float: right; }
       .blog-card .description a:after {
@@ -254,13 +272,17 @@ main {
   margin: 0 auto;
   text-align: left;
   width: 60%; }
-  .blog-container h3 {
+  .blog-container h2 {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     font-size: 60px; }
+  .blog-container h6 {
+    text-align: left;
+    font-style: italic; }
   .blog-container .paragraph-container {
     font-size: 23px;
-    padding-top: 20px; }
+    padding-top: 20px;
+    text-align: justify; }
 
 footer {
   height: 150px;

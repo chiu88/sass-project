@@ -1,30 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700);
+// $green: #75D13B;
+$grey: #e9e9e9;
 
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700);
-    $green: #75D13B;
-    $grey: #e9e9e9;
+@mixin transition($dur, $prop: all) {
+    transition: $prop $dur ease;
+    -webkit-transition: $prop $dur ease;
+}
 
-    @mixin transition($dur, $prop: all) {
-    	transition: $prop $dur ease;
-    	-webkit-transition: $prop $dur ease;
-    }
+@mixin bgImg($url) {
+    background: url($url) center no-repeat;
+    background-size: cover;
+}
+.card-container{
+    height: 100%;
+    width: 100%;
+    margin:o auto;
+}
 
-    @mixin bgImg($url) {
-    	background: url($url) center no-repeat;
-    	background-size: cover;
-    }
-
-    body {background: #f1f1f1; margin: 2rem}
-
-    .blog-card1 {
-        margin-top: 20px;
-    }
-
-    .blog-card {
+body {background: #f1f1f1; margin: 2rem}
+.blog-card {
     	@include transition(0.3s, height);
     	background: #fff;
     	border-radius: 3px;
     	box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
-    	margin: 0 auto 1.6%;
+      margin-top: 10px;
+      margin: 0 auto 1.6%;
     	overflow: hidden;
     	position: relative;
     	font-size: 14px;
@@ -62,10 +62,10 @@
     		&.photo2 {
     			@include bgImg("../img/porto.jpg");
     		}
-            &.photo3 {
+        &.photo3 {
                 @include bgImg("../img/london.jpg");
             }
-            &.photo4 {
+        &.photo4 {
                 @include bgImg("../img/porto.jpg");
             }
     	}
@@ -127,7 +127,7 @@
     			border-bottom: 1px dotted;
 
     			&:hover {
-    				color: $green;
+    				color: $secondary-color;
     			}
     		}
     	}
@@ -160,7 +160,7 @@
 
     			&:after {
     				content: "";
-    				background: $green;
+    				background: $secondary-color;
     				height: 6px;
     				width: 40px;
 
@@ -172,7 +172,7 @@
     		}
 
     		a {
-    			color: $green;
+    			color: $secondary-color;
     			margin-bottom: 10px;
     			float: right;
 
