@@ -290,7 +290,10 @@ footer {
   padding: 80px 0; }
   footer .icons {
     margin: 20px 10px;
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
     footer .icons .socialbtn {
       display: inline-block;
       position: relative;
@@ -324,11 +327,6 @@ footer {
       border-color: #4060A5;
       /* change the border color on mouse hover */ }
     footer .icons .twitterBtn {
-      background: #00ABE3; }
-    footer .icons .twitterBtn:before {
-      font-family: "FontAwesome";
-      content: "\f099";
-      /* add twitter icon */
       display: inline-block;
       position: relative;
       cursor: pointer;
@@ -347,6 +345,11 @@ footer {
       border-radius: 27px;
       float: right;
       margin: 10px; }
+    footer .icons .twitterBtn:before {
+      font-family: "FontAwesome";
+      content: "\f099";
+      /* add twitter icon */
+      background: #00ABE3; }
     footer .icons .linkedinBtn {
       background: #0094BC; }
     footer .icons .linkedinBtn:before {
