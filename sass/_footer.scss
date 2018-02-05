@@ -51,7 +51,7 @@ padding: 80px 0;
     }
 
   .twitterBtn{
-
+    background: #00ABE3;
     display: inline-block;
     position: relative;
     cursor:pointer;
@@ -74,7 +74,6 @@ padding: 80px 0;
   .twitterBtn:before{
       font-family: "FontAwesome";
       content: "\f099"; /* add twitter icon */
-      background: #00ABE3;
 
       }
       .linkedinBtn{
