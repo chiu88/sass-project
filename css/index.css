@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700);
 h1, h2, h3, h4 {
   font-family: "Quicksand", sans-serif; }
 
@@ -41,8 +42,191 @@ header {
   background-position: 50% 50%;
   height: 100%; }
 
-.card {
-  background-color: #83677B; }
+.text-container {
+  padding: 40px;
+  text-align: center;
+  color: black;
+  width: 700px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: "$primary-font";
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #2e1114;
+  text-align: left;
+  text-transform: uppercase; }
+
+.card-container {
+  height: 100%;
+  width: 100%;
+  margin: o auto; }
+
+body {
+  background: #f1f1f1;
+  margin: 2rem; }
+
+.blog-card {
+  transition: height 0.3s ease;
+  -webkit-transition: height 0.3s ease;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  margin: 0 auto 1.6%;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.45em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .blog-card:hover .details {
+    left: 0; }
+  .blog-card:hover.alt .details {
+    right: 0; }
+  .blog-card.alt .details {
+    right: -100%;
+    left: inherit; }
+  .blog-card .photo {
+    height: 200px;
+    position: relative; }
+    .blog-card .photo.photo1 {
+      background: url("../img/Rome.jpg") center no-repeat;
+      background-size: cover; }
+    .blog-card .photo.photo2 {
+      background: url("../img/porto.jpg") center no-repeat;
+      background-size: cover; }
+    .blog-card .photo.photo3 {
+      background: url("../img/london.jpg") center no-repeat;
+      background-size: cover; }
+    .blog-card .photo.photo4 {
+      background: url("../img/porto.jpg") center no-repeat;
+      background-size: cover; }
+  .blog-card .details {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Open Sans";
+    list-style: none;
+    margin: 0;
+    padding: 10px 15px;
+    height: 200px;
+    /*POSITION*/
+    position: absolute;
+    top: 0;
+    left: -100%; }
+    .blog-card .details > li {
+      padding: 3px 0; }
+    .blog-card .details li:before, .blog-card .details .tags ul:before {
+      font-family: FontAwesome;
+      margin-right: 10px;
+      vertical-align: middle; }
+    .blog-card .details .author:before {
+      content: "\f007"; }
+    .blog-card .details .date:before {
+      content: "\f133"; }
+    .blog-card .details .tags ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .blog-card .details .tags ul:before {
+        content: "\f02b"; }
+    .blog-card .details .tags li {
+      display: inline-block;
+      margin-right: 3px; }
+    .blog-card .details a {
+      color: inherit;
+      border-bottom: 1px dotted; }
+      .blog-card .details a:hover {
+        color: #83677b; }
+  .blog-card .description {
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative; }
+    .blog-card .description h1 {
+      font-family: "Roboto";
+      line-height: 1em;
+      margin: 0 0 10px 0; }
+    .blog-card .description h2 {
+      color: #9b9b9b;
+      font-family: "Open Sans";
+      line-height: 1.2em;
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: 400;
+      margin: 1.2% 0; }
+    .blog-card .description p {
+      position: relative;
+      margin: 0;
+      padding-top: 20px; }
+      .blog-card .description p:after {
+        content: "";
+        background: #83677b;
+        height: 6px;
+        width: 40px;
+        /*POSITION*/
+        position: absolute;
+        top: 6px;
+        left: 0; }
+    .blog-card .description a {
+      color: #83677b;
+      margin-bottom: 10px;
+      float: right; }
+      .blog-card .description a:after {
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        content: "\f061";
+        font-family: FontAwesome;
+        margin-left: -10px;
+        opacity: 0;
+        vertical-align: middle; }
+      .blog-card .description a:hover:after {
+        margin-left: 5px;
+        opacity: 1; }
+
+@media screen and (min-width: 600px) {
+  .blog-card {
+    height: 200px;
+    max-width: 600px; }
+    .blog-card:hover .photo {
+      transform: rotate(5deg) scale(1.3); }
+    .blog-card:hover.alt .photo {
+      transform: rotate(-5deg) scale(1.3); }
+    .blog-card.alt .details {
+      padding-left: 30px; }
+    .blog-card.alt .description {
+      float: right; }
+      .blog-card.alt .description:before {
+        transform: skewX(5deg);
+        right: -15px;
+        left: inherit; }
+    .blog-card.alt .photo {
+      float: right; }
+    .blog-card .photo {
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      float: left;
+      height: 100%;
+      width: 40%; }
+    .blog-card .details {
+      width: 40%; }
+    .blog-card .description {
+      float: left;
+      width: 60%;
+      z-index: 0; }
+      .blog-card .description:before {
+        transform: skewX(-5deg);
+        content: "";
+        background: #fff;
+        width: 100%;
+        z-index: -1;
+        /*POSITION*/
+        position: absolute;
+        left: -15px;
+        top: 0;
+        bottom: 0; } }
 
 main {
   background-color: #83677b;
@@ -88,13 +272,17 @@ main {
   margin: 0 auto;
   text-align: left;
   width: 60%; }
-  .blog-container h3 {
+  .blog-container h2 {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     font-size: 60px; }
+  .blog-container h6 {
+    text-align: left;
+    font-style: italic; }
   .blog-container .paragraph-container {
     font-size: 23px;
-    padding-top: 20px; }
+    padding-top: 20px;
+    text-align: justify; }
 
 footer {
   height: 150px;
@@ -102,7 +290,10 @@ footer {
   padding: 80px 0; }
   footer .icons {
     margin: 20px 10px;
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
     footer .icons .socialbtn {
       display: inline-block;
       position: relative;
@@ -136,11 +327,6 @@ footer {
       border-color: #4060A5;
       /* change the border color on mouse hover */ }
     footer .icons .twitterBtn {
-      background: #00ABE3; }
-    footer .icons .twitterBtn:before {
-      font-family: "FontAwesome";
-      content: "\f099";
-      /* add twitter icon */
       display: inline-block;
       position: relative;
       cursor: pointer;
@@ -159,6 +345,11 @@ footer {
       border-radius: 27px;
       float: right;
       margin: 10px; }
+    footer .icons .twitterBtn:before {
+      font-family: "FontAwesome";
+      content: "\f099";
+      /* add twitter icon */
+      background: #00ABE3; }
     footer .icons .linkedinBtn {
       background: #0094BC; }
     footer .icons .linkedinBtn:before {
